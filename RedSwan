@@ -1,8 +1,9 @@
 wait(0.1)
-game.Workspace.CurrentCamera.CameraType = Enum.CameraType.Scriptable
-game.Workspace.CurrentCamera.CFrame = game.Workspace.CameraA.CFrame
-script.Sound:Play()
+print("hey")
+workspace.CurrentCamera.CameraType = Enum.CameraType.Scriptable
+workspace.CurrentCamera.CFrame = workspace.CameraA.CFrame
+game.StarterGui.Sound:Play()
 game:GetService("RunService").RenderStepped:Connect(function()
-local boom = script.Sound.PlaybackLoudness / 175
+local boom = game.StarterGui.Sound.PlaybackLoudness / 175
 workspace.Part.PointLight.Brightness = boom * 1.25
 end)

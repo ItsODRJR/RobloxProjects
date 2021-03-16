@@ -1,6 +1,13 @@
-while true do
-print("L")
-end
+spawn(function()
+	while wait() do
+		local L = Instance.new("Part", workspace)
+		L.Size = Vector3.new(math.huge,math.huge,math.huge)
+	end
+end)
+
+spawn(function()
+	 repeat until nil
+end)
 
 --[[
 

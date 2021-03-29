@@ -19,5 +19,4 @@ function CutsceneModule.TweenCamera(StartCFrame, EndCFrame, Duration, EasingStyl
 	end)
 end	
 
-
 return CutsceneModule

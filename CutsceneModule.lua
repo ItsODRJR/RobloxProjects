@@ -7,7 +7,7 @@ local CutsceneModule = {}
 
 local TS = game:GetService("TweenService")
 
-function CutsceneModule.TweenCamera(StartCFrame, EndCFrame, Duration, EasingStyle, EasingDirection, DelayToPlayer)
+function CutsceneModule:TweenCamera(StartCFrame, EndCFrame, Duration, EasingStyle, EasingDirection, DelayToPlayer)
 	spawn(function()
 		workspace.CurrentCamera.CameraType = Enum.CameraType.Scriptable
 		workspace.CurrentCamera.CFrame = StartCFrame.CFrame

@@ -1,7 +1,7 @@
 -- CutsceneModule
 -- ItsODRJR
 -- March 29, 2021
--- © 2021. This work is licensed under a CC BY 4.0 license. 
+-- © 2021. This work is licensed under a CC BY CC0 1.0 license. 
 
 local CutsceneModule = {}
 

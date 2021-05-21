@@ -1,0 +1,8 @@
+{
+    "Events": {
+        "TestEvent": {
+                  "EventEpoch": os.time() + 240,
+                  "EventBool": true
+        }
+    }
+}
